@@ -2,3 +2,7 @@ git pull origin main
 git add . 
 git commit -m "modified project"
 git push origin main
+
+git checkout main
+git merge feature-branch
+git push origin main
